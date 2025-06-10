@@ -12,10 +12,12 @@ body {
 }
 .nav a {
   color: white;
-  text-decoration: none;
+  text-decoration: thistle;
   margin-left: 40px;
   font-weight: 400;
   font-size: 12px;
+  text-align: center;
+  gap: 10px;
 }
 /* Header */
 .header {
@@ -35,13 +37,6 @@ body {
   font-weight: 700;
   color: white;
 }
- .nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 12px;
-  text-align: right;
- }
 /* Hero Section */
 .hero {
   background: url("../images/background.png");
