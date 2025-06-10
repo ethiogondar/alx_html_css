@@ -22,10 +22,7 @@ body {
   article h2 {
     color: #333;
   } 
-  logo {
-    font-size: 2em
-    margin-right: 10px
-  }
+
   
   /* Aside takes 1/3 of the width and scrolls vertically if needed */
   aside {
