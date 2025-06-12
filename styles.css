@@ -1,135 +1,43 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #fff;
-  background-color: #000;
+  background-color:blueviolet ;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
 }
-.nav a {
-  color: white;
-  text-decoration: thistle;
-  margin-left: 40px;
-  font-weight: 400;
-  font-size: 12px;
-  text-align: center;
-  gap: 10px;
-}
-/* Header */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 50px;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 10;
-}
-
-.logo {
-  font-size: 18px;
-  font-weight: 700;
-  color: white;
-}
-/* Hero Section */
-.hero {
-  background: url("../images/background.png");
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 0 20px;
-  position: relative;
-}
-.hero-content {
-  max-width: 600px;
-}
-
-.hero-title {
-  font-size: 120px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-.hero-subtitle {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 30px;
-  font-weight: 700;
-  font-size: 16px;
-  margin-bottom: 40px;
-}
-
-.btn {
-  background-color: #C271FF;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 30px;
-  font-size: 14px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.btn:hover {
-  background-color: #a052e0;
-}
-
-/* Testimonials Section */
-.testimonials 
-{
-  text-align: center;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #071629 60%);
-  padding: 60px 20px 80px;
-  color: white; 
-}
-.testimonials h2 {
-  font-size: 32px;
-  margin-bottom: 60px;
-  font-weight: 400;
-}
-
-.testimonials .highlight {
-  color: #C271FF;
-  font-weight: bold;
-}
-
-.profiles {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.profile {
-  text-align: center;
-  max-width: 150px;
-}
-
 .profile img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-}
+  /*border-radius: 50%;*/
+  /*margin-bottom: 100px;*/
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 300px;
+  position:absolute;
 
-.profile h3 {
-  font-size: 16px;
-  margin-bottom: 8px;
-  font-weight: 600;
 }
 
 .profile p {
-  font-size: 12px;
+  font-size: 10px;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.profile h2 {
+  font-size: 14px;
   line-height: 1.4;
   color: #ffffffcc;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right:200px;
+  text-align: center;
+}
+.profile h3 {
+  font-size: 2px;
+  line-height: 1.4;
+  color: #ffffffcc;
+  margin-left: 200px;
+  margin-right: 300px;
+  text-align: center;
+  font-style: italic;
 }
