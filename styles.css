@@ -2,65 +2,40 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #0a0f1c;
-  color: #fff;
+  color: #333;
 }
 
-.membership {
+.faq-section {
+  background-color: #ffffff;
+  padding: 80px 20px;
   text-align: center;
-  padding: 60px 20px;
-  background-color: #0a0f1c;
 }
 
-.membership h2 {
-  font-size: 28px;
-  margin-bottom: 40px;
-  color: #fff;
+.faq-section h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+  color: #0a0f1c;
 }
 
-.membership h2 span {
-  color: #b55eff; /* Purple for "Free" */
-  font-weight: bold;
-}
-
-.features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
-  margin-bottom: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.feature {
-  max-width: 200px;
-}
-
-.icon {
-  font-size: 40px;
-  color: #b55eff;
-  margin-bottom: 10px;
-}
-
-.feature h3 {
+.faq-item h3 {
   font-size: 16px;
-  margin: 10px 0 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0a0f1c;
 }
 
-.feature p {
+.faq-item p {
   font-size: 14px;
-  color: #ccc;
-}
-
-.register-btn {
-  background: linear-gradient(to right, #b55eff, #d86fff);
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  font-size: 14px;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.register-btn:hover {
-  background: linear-gradient(to right, #a04ae0, #c659ff);
+  color: #555;
+  line-height: 1.6;
 }
