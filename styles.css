@@ -1,111 +1,66 @@
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #fff;
-  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0a0f1c;
+  color: #fff;
 }
 
-.popular-section {
-  padding: 60px 20px;
+.membership {
   text-align: center;
+  padding: 60px 20px;
+  background-color: #0a0f1c;
 }
 
-.popular-section h2 {
-  font-size: 2em;
-  font-weight: normal;
+.membership h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #fff;
 }
 
-.popular-section .highlight {
-  color: #a25bff;
+.membership h2 span {
+  color: #b55eff; /* Purple for "Free" */
   font-weight: bold;
 }
 
-.cards-container {
+.features {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 40px;
-  gap: 20px;
+  gap: 40px;
+  margin-bottom: 40px;
 }
 
-.card {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  width: 260px;
-  padding-bottom: 20px;
-  transition: transform 0.3s;
+.feature {
+  max-width: 200px;
 }
 
-.card:hover {
-  transform: translateY(-5px);
+.icon {
+  font-size: 40px;
+  color: #b55eff;
+  margin-bottom: 10px;
 }
 
-.thumbnail {
-  position: relative;
-  border-radius: 8px 8px 0 0;
-  overflow: hidden;
+.feature h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
 }
 
-.thumbnail img {
-  width: 100%;
-  height: auto;
-  display: block;
+.feature p {
+  font-size: 14px;
+  color: #ccc;
 }
 
-.play-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #fff;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #a25bff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+.register-btn {
+  background: linear-gradient(to right, #b55eff, #d86fff);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
-.card h3 {
-  margin: 16px 0 8px;
-  font-size: 1.1em;
-}
-
-.card p {
-  margin: 0 16px 16px;
-  font-size: 0.9em;
-  color: #666;
-}
-
-.card-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 16px;
-  font-size: 0.85em;
-}
-
-.author {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.author img {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-}
-
-.stars {
-  color: #a25bff;
-}
-
-.rating-time {
-  text-align: right;
-  color: #999;
+.register-btn:hover {
+  background: linear-gradient(to right, #a04ae0, #c659ff);
 }
