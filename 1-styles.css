@@ -1,0 +1,55 @@
+/* What we do section */
+.what-we-do {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #000;
+  }
+  
+  .what-we-do h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .service-item {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .service-item i {
+    font-size: 60px;
+    color: #FF6565;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .service-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  /* Responsive for small screens */
+  @media screen and (max-width: 480px) {
+    .services {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-item {
+      width: 90%;
+    }
+  }
