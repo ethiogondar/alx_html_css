@@ -1,0 +1,43 @@
+/* Hamburger default (hidden) */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Navigation menu */
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Responsive nav */
+  @media screen and (max-width: 480px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .nav {
+      display: none;
+      flex-direction: column;
+      background-color: #1f1f1f;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      width: 200px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    }
+  
+    .nav.show {
+      display: flex;
+      animation: slideDown 0.3s ease-in-out;
+    }
+  
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  }
